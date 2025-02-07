@@ -21,6 +21,10 @@ footer {
 
 /* ----------------------------------------- */
 
+.wp-block-post-excerpt__excerpt {
+    height: 263px;
+}
+
 #camperz-post {
     max-width: 1200px;
     margin: auto;
