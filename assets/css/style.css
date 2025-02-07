@@ -27,6 +27,19 @@ footer {
     padding-bottom: 100px;
 }
 
+#camperz-post .wp-block-post-terms {
+    margin-top: 20px;
+}
+
+#camperz-post .wp-block-post-terms a {
+    background-color: #EBEBEB;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+    
+}
+
 #camperz-post p {
     font-weight: 300;
     font-size: 20px;
