@@ -3,7 +3,33 @@ body {
     font-family: "Roboto", serif;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
 /* ----------------------------------------- */
+
+#camperz-post {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#camperz-post .wp-block-post-title {
+    margin-top: 0;
+}
+
+#camperz-post img {
+    float: left;
+    border-left: 10px solid #FFCC02;
+}
 
 .block_story_teaser_big h2 {
     display: flex;
@@ -37,3 +63,4 @@ body {
     width: 250px;
     margin-right: 20px;
 }
+
