@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    font-family: "Roboto", serif;
+}
+
+/* ----------------------------------------- */
+
+.block_story_teaser_big h2 {
+    display: flex;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.block_story_teaser_big li {
+    float: left;
+    width: calc(50% - 20px);
+    margin-right: 20px;
+}
+
+.story_teaser_big p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.story_teaser_big .wp-block-post-excerpt__more-link {
+    background-color: #FFCC02;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.story_teaser_big img {
+    float: left;
+    border-left: 10px solid #FFCC02;
+    width: 250px;
+    margin-right: 20px;
+}
