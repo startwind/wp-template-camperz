@@ -53,6 +53,16 @@ footer {
     margin-bottom: 40px;
 }
 
+#camperz-post .wp-block-post-content img {
+    width: 400px;
+    float: right;
+    position: relative;
+    margin-left: -50px;
+    margin-bottom: 30px;
+    left: 90px;
+    border-bottom: 10px #FFCC02 solid;
+}
+
 #camperz-post .wp-block-post-title {
     margin-top: 0;
 }
@@ -72,6 +82,7 @@ footer {
     float: left;
     width: calc(50% - 20px);
     margin-right: 20px;
+    margin-bottom: 40px;
 }
 
 .story_teaser_big p {
