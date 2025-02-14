@@ -118,6 +118,7 @@ footer {
 
 #archiveBlock .wp-block-post-excerpt {
     margin-top: 10px;
+    font-weight: 300;
 }
 
 #archiveBlock .wp-block-post-excerpt__excerpt {
