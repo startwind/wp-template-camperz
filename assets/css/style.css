@@ -130,3 +130,20 @@ footer {
     border-left: 10px solid #FFCC02;
     margin-right: 20px;
 }
+
+@media (max-width: 500px) {
+    .block_story_teaser_big li {
+        float: none;
+        width: calc(100% - 20px);
+    }
+
+    .story_teaser_big img {
+        float: none;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .wp-block-post-excerpt__excerpt {
+        height: inherit;
+    }
+}
