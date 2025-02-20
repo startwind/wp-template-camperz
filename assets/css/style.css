@@ -29,10 +29,17 @@ footer {
     max-width: 1200px;
     margin: auto;
     padding-bottom: 100px;
+    display: flex;
 }
 
 #camperz-post .wp-block-post-terms {
     margin-top: 20px;
+}
+
+#camperz-post .left-bar {
+    float: left;
+    margin-right: 50px;
+    flex: 130%;
 }
 
 #camperz-post .wp-block-post-terms a {
@@ -110,7 +117,7 @@ footer {
     _background-color: red;
 }
 
-#archiveBlock h2  {
+#archiveBlock h2 {
     margin-top: 0;
     margin-bottom: 5px;
     font-size: 28px;
@@ -134,16 +141,55 @@ footer {
 @media (max-width: 500px) {
     .block_story_teaser_big li {
         float: none;
-        width: calc(100% - 20px);
+        width: calc(100% - 10px);
     }
 
     .story_teaser_big img {
         float: none;
         width: 100%;
-        margin-right: 20px;
     }
 
     .wp-block-post-excerpt__excerpt {
         height: inherit;
+    }
+
+    #camperz-post img {
+        float: none;
+    }
+
+    #camperz-post {
+        display: block;
+        margin-left: 20px;
+    }
+
+    #camperz-post .wp-block-post-content {
+        width: calc(100% - 40px);
+    }
+
+    #camperz-post .left-bar {
+        float: none;
+        margin-right: 30px;
+    }
+
+    #camperz-post h2 {
+        font-size: 50px;
+    }
+
+    #camperz-post .wp-block-post-title {
+        margin-top: 30px;
+    }
+
+    #camperz-post .author {
+        display: none;
+    }
+
+    #camperz-post .wp-block-post-content img {
+        width: 100%;
+        float: none;
+        position: relative;
+        margin-left: 0;
+        margin-bottom: 10px;
+        left: inherit;
+        border-bottom: 10px #FFCC02 solid;
     }
 }
