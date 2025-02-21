@@ -187,6 +187,10 @@ footer {
     margin-bottom: 70px;
 }
 
+.teaser_ad li:last-child {
+    margin-bottom: 0;
+}
+
 @media (max-width: 500px) {
     .block_story_teaser_big li {
         float: none;
