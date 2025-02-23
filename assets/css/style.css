@@ -48,6 +48,8 @@ footer {
     border-radius: 5px;
     text-decoration: none;
     margin-right: 5px;
+    margin-bottom: 8px;
+    display: inline-block;
 }
 
 #camperz-post p {
@@ -72,6 +74,10 @@ footer {
 
 #camperz-post .wp-block-post-title {
     margin-top: 0;
+}
+
+#camperz-post .wp-block-list {
+    font-weight: 300;
 }
 
 #camperz-post img {
