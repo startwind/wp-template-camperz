@@ -311,4 +311,8 @@ footer {
         left: inherit;
         border-bottom: 10px #FFCC02 solid;
     }
+
+    .story_teaser_small img {
+        display: none;
+    }
 }
