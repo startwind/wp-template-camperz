@@ -18,4 +18,30 @@
 </main>
 <!-- /wp:group -->
 
+<div class="block_full">
+    <div class="block_story_teaser_small">
+        <h2>
+            Unsere neusten Artikel
+        </h2>
+        <!-- wp:query {"query":{"perPage":3,"pages":1,"offset":0,"postType":"post","order":"desc","orderBy":"date"}} -->
+        <div class="alignwide">
+            <!-- wp:post-template {"align":"wide"} -->
+            <div class="story_teaser_small">
+                <!-- wp:post-featured-image {"isLink":true} /-->
+                <!-- wp:post-title {"isLink":true} /-->
+                <!--- wp:post-date {"isLink":true} /--->
+                <!-- wp:post-excerpt {"moreText":"die ganze Story lesen", "excerptLength": 45} /-->
+            </div>
+            <!-- /wp:post-template -->
+            <div style="clear: both"></div>
+        </div>
+    </div>
+</div>
+
+<style>
+
+</style>
+
+<!-- /wp:query -->
+
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
