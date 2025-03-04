@@ -13,3 +13,336 @@ License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: Camperz.world
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, accessibility-ready, blog, portfolio, news
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: white;
+    font-family: "Roboto", serif;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+/* ----------------------------------------- */
+
+.wp-block-post-excerpt__excerpt {
+    height: 209px;
+}
+
+#camperz-post {
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+#camperz-post .wp-block-post-terms {
+    margin-top: 20px;
+}
+
+#camperz-post .left-bar {
+    float: left;
+    margin-right: 50px;
+    flex: 130%;
+}
+
+#camperz-post .wp-block-post-terms a {
+    background-color: #EBEBEB;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+#camperz-post p {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#camperz-post h2 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+#camperz-post .wp-block-post-content img {
+    width: 400px;
+    float: right;
+    position: relative;
+    margin-left: -50px;
+    margin-bottom: 30px;
+    left: 90px;
+    border-bottom: 10px #FFCC02 solid;
+}
+
+#camperz-post .wp-block-post-title {
+    margin-top: 0;
+}
+
+#camperz-post .wp-block-list {
+    font-weight: 300;
+}
+
+#camperz-post img {
+    float: left;
+    border-left: 10px solid #FFCC02;
+}
+
+.block_story_teaser_big h2 {
+    display: flex;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.block_story_teaser_big li {
+    float: left;
+    width: calc(50% - 20px);
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.story_teaser_big p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.story_teaser_big .wp-block-post-excerpt__more-link {
+    background-color: #FFCC02;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.story_teaser_big img {
+    float: left;
+    border-left: 10px solid #FFCC02;
+    width: 250px;
+    margin-right: 20px;
+}
+
+#archiveBlock {
+    _background-color: red;
+}
+
+#archiveBlock h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+#archiveBlock .wp-block-post-excerpt {
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+#archiveBlock .wp-block-post-excerpt__excerpt {
+    height: inherit;
+}
+
+#archiveBlock img {
+    float: left;
+    border-left: 10px solid #FFCC02;
+    margin-right: 20px;
+}
+
+.teaser_ad a {
+    text-decoration: none;
+}
+
+.teaser_ad .desc {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.teaser_ad .info {
+    font-size: 14px;
+    margin-bottom: 40px;
+    background-color: #FFCC02;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.teaser_ad .headline {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.block_story_teaser_big .teaser_ad li {
+    width: 100%;
+}
+
+.teaser_ad img {
+    float: left;
+    margin-right: 20px;
+}
+
+.teaser_ad {
+    margin-top: 20px;
+    _background-color: red;
+    height: 390px;
+}
+
+.teaser_ad ul {
+    padding-left: 0;
+    margin-right: 25px;
+}
+
+.teaser_ad li {
+    float: none;
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 70px;
+}
+
+.teaser_ad li:last-child {
+    margin-bottom: 0;
+}
+
+.single-post main {
+    margin-bottom: 0;
+}
+
+.block_full {
+    background-color: #ecf0f1;
+}
+
+.block_story_teaser_small {
+    padding: 20px;
+}
+
+.block_story_teaser_small h2 {
+    font-size: 30px;
+}
+
+.block_story_teaser_small ul h2 {
+    width: inherit;
+    float: none;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.block_story_teaser_small .wp-block-post-excerpt__excerpt {
+    height: inherit;
+}
+
+.block_story_teaser_small .wp-block-post-excerpt__more-link {
+    background-color: #FFCC02;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.block_story_teaser_small {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.block_story_teaser_small li {
+    margin-right: 0;
+    margin-bottom: 60px;
+}
+
+.story_teaser_small p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.story_teaser_small img {
+    float: left;
+    border-left: 10px solid #FFCC02;
+    width: 140px;
+    margin-right: 20px;
+}
+
+.wp-block-navigation .wp-block-navigation-item {
+    margin-left: 15px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 500px) {
+    .block_story_teaser_big li {
+        float: none;
+        width: calc(100% - 10px);
+    }
+
+    .story_teaser_big img {
+        float: none;
+        width: 100%;
+    }
+
+    .wp-block-post-excerpt__excerpt {
+        height: inherit;
+    }
+
+    #camperz-post img {
+        float: none;
+    }
+
+    #camperz-post {
+        display: block;
+        margin-left: 20px;
+    }
+
+    #camperz-post .wp-block-post-content {
+        width: calc(100% - 40px);
+    }
+
+    #camperz-post .left-bar {
+        float: none;
+        margin-right: 30px;
+    }
+
+    #camperz-post h2 {
+        font-size: 50px;
+    }
+
+    #camperz-post .wp-block-post-title {
+        margin-top: 30px;
+    }
+
+    #camperz-post .author {
+        display: none;
+    }
+
+    #camperz-post .wp-block-post-content img {
+        width: 100%;
+        float: none;
+        position: relative;
+        margin-left: 0;
+        margin-bottom: 10px;
+        left: inherit;
+        border-bottom: 10px #FFCC02 solid;
+    }
+
+    .story_teaser_small img {
+        display: none;
+    }
+}

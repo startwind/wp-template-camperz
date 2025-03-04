@@ -2,7 +2,7 @@
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
-    <!--- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"post","order":"asc","orderBy":"date","author":"","exclude":[],"sticky":"","inherit":false,"categoryIds":[{"slug":"story"}], "parents":[]},"align":"full","layout":{"type":"default"}} -->
+    <!-- wp:query {"query":{"perPage":5,"postType":"post","order":"desc","orderBy":"date","inherit":false}} -->
     <div class="block_story_teaser_big alignwide" id="story_teaser_big_list">
         <!-- wp:post-template {"align":"wide"} -->
         <div class="story_teaser_big">
@@ -24,60 +24,61 @@
     <!-- wp:spacer {"height":"var(--wp--preset--spacing--60)"} -->
     <div style="height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
-
-
-    <div id="story_teaser_big_ad">
-        <li class="teaser_ad">
-            <div class="info">
-                Werbung
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="https://www.amazon.de">
-                            <img
-                                    alt="Amazon Logo"
-                                    width="250"
-                                    src="/wp-content/themes/camperz.world/assets/images/amazon-logo.png"
-                            />
-                            <div class="headline">
-                                Amazon Camping Gadgets
-                            </div>
-                            <div class="desc">
-                                Produkte auf Amazon, die wir nutzen oder empfehlen. Tolle Sachen für den Alltag und auch
-                                Dinge, die das Campen auf das nächste Level bringen.
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.temu.com">
-                            <img
-                                    alt="Temu Logo"
-                                    width="250"
-                                    src="/wp-content/themes/camperz.world/assets/images/temu-logo.png"
-                            />
-                            <div class="headline">
-                                Temu
-                            </div>
-                            <div class="desc">
-                                Nicht alles ist toll auf Temu, deswegen haben wir uns hingesetzt und hochwertige
-                                Produkte zusammengestellt, die wir bereits selber nutzen.
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </li>
-    </div>
-
-    <script>
-        const list = document.querySelector("#story_teaser_big_list ul")
-        const adDiv = document.querySelector('#story_teaser_big_ad li')
-        let referenceNode = list.children[2];
-        list.insertBefore(adDiv, referenceNode);
-    </script>
-
 </main>
 <!-- /wp:group -->
+
+<!-- wp:group {"tagName":"ads"} -->
+<div id="story_teaser_big_ad">
+    <li class="teaser_ad">
+        <div class="info">
+            Werbung
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://www.amazon.de">
+                        <img
+                                alt="Amazon Logo"
+                                width="250"
+                                src="/wp-content/themes/camperz.world/assets/images/amazon-logo.png"
+                        />
+                        <div class="headline">
+                            Amazon Camping Gadgets
+                        </div>
+                        <div class="desc">
+                            Produkte auf Amazon, die wir nutzen oder empfehlen. Tolle Sachen für den Alltag und auch
+                            Dinge, die das Campen auf das nächste Level bringen.
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.temu.com">
+                        <img
+                                alt="Temu Logo"
+                                width="250"
+                                src="/wp-content/themes/camperz.world/assets/images/temu-logo.png"
+                        />
+                        <div class="headline">
+                            Temu
+                        </div>
+                        <div class="desc">
+                            Nicht alles ist toll auf Temu, deswegen haben wir uns hingesetzt und hochwertige
+                            Produkte zusammengestellt, die wir bereits selber nutzen.
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </li>
+</div>
+
+<script>
+    const list = document.querySelector("#story_teaser_big_list ul")
+    const adDiv = document.querySelector('#story_teaser_big_ad li')
+    let referenceNode = list.children[2];
+    list.insertBefore(adDiv, referenceNode);
+</script>
+<!-- /wp:group -->
+
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
