@@ -162,6 +162,10 @@ footer {
     margin-right: 20px;
 }
 
+.teaser_ad {
+    display: inline;
+}
+
 .teaser_ad a {
     text-decoration: none;
 }
