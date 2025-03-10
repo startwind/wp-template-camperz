@@ -24,7 +24,63 @@
     <!-- wp:spacer {"height":"var(--wp--preset--spacing--60)"} -->
     <div style="height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
+
+    <div class="content tagBlock">
+        <h2>Unsere Specials</h2>
+        <ul>
+            <li onclick="window.location='/tag/winter/'">
+                Winter im Camper →
+            </li>
+            <li onclick="window.location='/tag/sicherheit/'">
+                Sicherheit auf Reisen →
+            </li>
+            <li onclick="window.location='/tag/kinder/'">
+                Mit Kindern in den Urlaub →
+            </li>
+            <li onclick="window.location='/tag/winter/'">
+                Lidl Gerichte →
+            </li>
+        </ul>
+        <div style="clear: both"></div>
+    </div>
+
 </main>
+
+<style>
+    .tagBlock {
+        background-color: red;
+        padding: 20px;
+    }
+
+    main h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+
+    .tagBlock {
+        background-color: #ecf0f1;
+        border-radius: 10px;
+    }
+
+    .tagBlock ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .tagBlock ul li {
+        background-color: white;
+        padding: 10px 20px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        width: calc(25% - 50px);
+        float: left;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"ads"} -->
