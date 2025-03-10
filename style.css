@@ -299,7 +299,44 @@ footer {
     padding-left: 20px;
 }
 
+.tagBlock {
+    background-color: red;
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.tagBlock {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+}
+
+.tagBlock ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.tagBlock ul li {
+    background-color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: calc(25% - 50px);
+    float: left;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 @media (max-width: 500px) {
+    .tagBlock ul li {
+        width: calc(100% - 40px);
+    }
+
     .block_story_teaser_big li {
         float: none;
         width: calc(100% - 10px);
