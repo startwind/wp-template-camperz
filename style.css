@@ -25,6 +25,10 @@ main {
     margin-bottom: 100px;
 }
 
+a {
+    text-decoration: none;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -342,6 +346,10 @@ main h2 {
 .topTeaser h2 {
     font-size: 33px;
     line-height: 44px
+}
+
+.topTeaser a h2 {
+    text-decoration: none;
 }
 
 .topTeaser .image {
