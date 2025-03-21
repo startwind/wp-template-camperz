@@ -368,7 +368,26 @@ main h2 {
     font-weight: 300;
 }
 
+#archiveBlock .post-image {
+    width: 135px;
+    float: left;
+    margin-right: 20px
+}
+
 @media (max-width: 500px) {
+
+    #archiveBlock .post-image {
+        width: 80px;
+    }
+
+    #archiveBlock img {
+        border-left-width: 4px;
+    }
+
+    #archiveBlock h2 {
+        display: flex;
+    }
+
     .topTeaser {
         width: calc(100% - 60px);
     }
