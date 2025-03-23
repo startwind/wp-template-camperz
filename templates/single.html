@@ -11,12 +11,33 @@
         </div>
         <div>
             <!-- wp:post-title /-->
-            <!-- wp:post-content  /-->
+            <!-- wp:post-content /-->
             <!--- wp:template-part {"slug":"comments","tagName":"section"} /-->
         </div>
     </div>
 </main>
 <!-- /wp:group -->
+
+<div id="newsletter-block">
+    <div class="headline">Unser täglicher Newsletter</div>
+    <p class="intro">
+        Melde dich jetzt für unseren Camping-Newsletter an und erhalte jeden Tag frische Tipps, 
+        spannende Outdoor-Geschichten und die besten Camping-Hacks direkt in dein Postfach! 
+    </p>
+    <!-- wp:html -->
+    [sibwp_form id=1]
+    <!-- /wp:html -->
+</div>
+
+<script>
+    const paragraphs = document.querySelectorAll(".wp-block-post-content h3")
+    const newsletterBlock = document.querySelector('#newsletter-block')
+    paragraphs[2].before(newsletterBlock);
+</script>
+
+<style>
+
+</style>
 
 <div class="block_full">
     <div class="block_story_teaser_small">
