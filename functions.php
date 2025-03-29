@@ -7,7 +7,7 @@ function mein_custom_styles() {
 add_action( 'wp_enqueue_scripts', 'mein_custom_styles' );
 
 function acf_affiliate_shortcode() {
-	$affiliate = get_field( 'affiliate' );
+	$affiliate = get_field( 'affiliate_link' );
 
 	if ( $affiliate ) {
 		return $affiliate;
